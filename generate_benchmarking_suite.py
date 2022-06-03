@@ -13,9 +13,6 @@ plotting_marker_size = 1
 class ColorException(Exception):
     pass
 
-class XTooBigException(Exception):
-    pass
-
 
 def generate_benchmarking_suite(spherical=False):
     data, ideal_labels = generate_dataset(spherical=spherical)
